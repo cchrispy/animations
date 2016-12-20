@@ -9,18 +9,25 @@ class Boxes extends Component {
   }
 
   render() {
+    // return (
+    //   <div className='container'>
+    //     <div className='row'>
+    //       <Box color={ 'red' } />
+    //       <Box color={ 'purple' } />
+    //       <Box color={ 'orange' } />
+    //       <Box color={ 'blue' } />
+    //       <Box color={ 'orange' } />
+    //       <Box color={ 'blue' } />
+    //       <Box color={ 'red' } />
+    //       <Box color={ 'purple' } />
+
+    //     </div>
+    //   </div>
+    // )
     return (
       <div className='container'>
         <div className='row'>
           <Box color={ 'red' } />
-          <Box color={ 'purple' } />
-          <Box color={ 'orange' } />
-          <Box color={ 'blue' } />
-          <Box color={ 'orange' } />
-          <Box color={ 'blue' } />
-          <Box color={ 'red' } />
-          <Box color={ 'purple' } />
-
         </div>
       </div>
     )
