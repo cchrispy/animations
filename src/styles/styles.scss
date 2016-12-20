@@ -1,5 +1,29 @@
 @import 'animations';
 
+.appTitle {
+  font-size: 40px;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
 .box {
-  
+  height: 250px;
+  border: 2px solid white;
+  border-radius: 10px;
+  background-color: #CAF6CD;
+
+  button {
+    margin-top: 110px;
+  }
+
+}
+
+.ball {
+  height: 80px;
+  width: 80px;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  background-color: #2172BF;
 }

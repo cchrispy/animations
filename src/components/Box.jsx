@@ -8,8 +8,13 @@ class Box extends Component {
 
   render() {
     return (
-      <div className='box'>
-      
+      <div className={`col-lg-3 col-md-4 col-sm-6 box text-center`} >
+        <div className='ball'>
+
+        </div>
+        <button type='button' className='btn btn-primary btn-block'>
+          { this.props.color }
+        </button>
       </div>
     )
   }

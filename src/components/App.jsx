@@ -1,14 +1,16 @@
 import React, { Component } from 'react';
 import '../styles/styles.scss';
 
+import Boxes from './Boxes.jsx';
+
 class App extends Component {
   render() {
     return (
       <div>
-        <h1 className='page-header'>CSS Animations</h1>
-        <div>
-          Shall we begin?
+        <div className='page-header'>
+          <h1 className='appTitle'>CSS Animations</h1>
         </div>
+        <Boxes />
       </div>
     )
   }
