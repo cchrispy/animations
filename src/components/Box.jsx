@@ -20,8 +20,11 @@ class Box extends Component {
     // )
     return (
       <div className={`col-lg-3 col-md-4 col-sm-6 box text-center`} >
-        <div className='ball'>
-        </div>
+        <div className='ball vibrate'></div>
+        <div className='ball vibrate'></div>
+        <div className='ball vibrate'></div>
+        <div className='ball vibrate'></div>
+        <div className='ball vibrate'></div>
       </div>
     )
   }
