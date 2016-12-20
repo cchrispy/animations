@@ -26,6 +26,7 @@
 }
 
 .ball {
+  position: absolute;
   height: 80px;
   width: 80px;
   margin-top: 10px;
@@ -33,4 +34,6 @@
   margin-right: auto;
   border-radius: 50%;
   background-color: #2172BF;
+  animation-name: bounce;
+  animation-duration: 5s;
 }
