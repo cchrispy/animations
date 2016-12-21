@@ -51,3 +51,22 @@
     background-color: black;
   }
 }
+
+@keyframes boing {
+  0% { transform: skew(0deg); background-color: #5CA4A9; }
+  10% { transform: skew(35deg); background-color: #5CA4A9; }
+  20% { transform: skew(-30deg); background-color: #9BC1BC; }
+  30% { transform: skew(45deg); background-color: #F4F1BB; }
+  40% { transform: skew(0deg, -60deg); background-color: #E6EBE0; }
+  50% { transform: skew(60deg); background-color: #E6EBE0; }
+  60% { transform: skew(-65deg); background-color: #E6EBE0; }
+  70% { transform: skew(30deg); background-color: #9BC1BC; }
+  80% { transform: skew(-5deg, -5deg); }
+  82% { transform: skew(-2deg, 2deg); }
+  85% { transform: skew(5deg, 5deg); }
+  88% { transform: skew(-3deg); }
+  90% { transform: skew(2deg); }
+  92% { transform: skew(-2deg); background-color: #5CA4A4; }
+  93% { transform: skew(0deg); background-color: #5CA4A9; }
+  100% { transform: skew(0deg); background-color: #5CA4A9; }
+}

@@ -37,6 +37,15 @@
   border-radius: 50%;
 }
 
+.ball-lg {
+  height: 120px;
+  width: 120px;
+  margin: 15% auto;
+  padding: 0px;
+  border-radius: 50%;
+  background-color: white;
+}
+
 .vibrate {
   animation-timing-function: ease-in-out;
 }
@@ -44,4 +53,9 @@
 .slide.ball {
   animation-direction: alternate;
   animation-timing-function: ease-in-out;
+}
+
+.boing {
+  animation-timing-function: ease;
+  @include animation-args(boing, 3s);
 }

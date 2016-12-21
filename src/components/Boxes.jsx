@@ -14,6 +14,7 @@ class Boxes extends Component {
         <div className='row'>
           <Box type='vibrate' />
           <Box type='slide' />
+          <Box type='boing' />
         </div>
       </div>
     )
