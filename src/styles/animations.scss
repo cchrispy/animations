@@ -1,15 +1,24 @@
 @keyframes vibrate {
+  // 0% {
+  //   transform: translateX(0px);
+  // }
+  // 25% {
+  //   transform: translateX(100px);
+  // }
+  // 75% {
+  //   transform: translateX(-100px);
+  // }
+  // 100% {
+  //   transform: translateX(0px);
+  // }
   0% {
-    transform: translateX(0px);
+    transform: translateX(75px);
   }
-  25% {
-    transform: translateX(100px);
-  }
-  75% {
-    transform: translateX(-100px);
+  50% {
+    transform: translateX(-75px);
   }
   100% {
-    transform: translateX(0px);
+    transform: translateX(75px);
   }
 }
 

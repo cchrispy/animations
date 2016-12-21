@@ -25,6 +25,10 @@ class Box extends Component {
         <div className='ball vibrate'></div>
         <div className='ball vibrate'></div>
         <div className='ball vibrate'></div>
+        <div className='ball vibrate'></div>
+        <div className='ball vibrate'></div>
+        <div className='ball vibrate'></div>
+        <div className='ball vibrate'></div>
       </div>
     )
   }

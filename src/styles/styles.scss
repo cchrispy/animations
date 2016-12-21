@@ -1,4 +1,9 @@
 @import 'animations';
+@mixin animation-args($name, $duration) {
+  animation-name: $name;
+  animation-duration: $duration;
+  animation-iteration-count: infinite;
+}
 
 .appTitle {
   font-size: 40px;
@@ -35,8 +40,18 @@
 }
 
 .vibrate {
-  animation-name: vibrate;
-  animation-duration: 3s;
+  @include animation-args(vibrate, 4s);
   animation-timing-function: ease;
-  animation-iteration-count: infinite;
+}
+
+.ball.vibrate:nth-child(1) {
+  background-color: orange;
+}
+
+.ball.vibrate:nth-child(2) {
+  background-color: purple;
+}
+
+.ball.vibrate:nth-child(3) {
+  background-color: yellow;
 }
