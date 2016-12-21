@@ -14,6 +14,7 @@
 
 .container * {
   overflow-x: hidden;
+}
 
 .box {
   height: 200px;
@@ -39,8 +40,8 @@
 .vibrate {
   animation-timing-function: ease-in-out;
 }
-}
 
 .slide.ball {
-  animation-timing-function: ease-out;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
 }
