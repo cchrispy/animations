@@ -1,9 +1,10 @@
-@import 'animations';
 @mixin animation-args($name, $duration) {
   animation-name: $name;
   animation-duration: $duration;
   animation-iteration-count: infinite;
 }
+@import 'animations';
+@import 'variations';
 
 .appTitle {
   font-size: 40px;
@@ -13,15 +14,9 @@
 
 .box {
   height: 200px;
-  border: 2px solid white;
+  border: 2px solid gray;
   border-radius: 10px;
   background-color: black;
-
-  button {
-    /*
-    ** Button!
-    */
-  }
 
   .inner-box {
     height: 200px;
@@ -40,18 +35,5 @@
 }
 
 .vibrate {
-  @include animation-args(vibrate, 4s);
-  animation-timing-function: ease;
-}
-
-.ball.vibrate:nth-child(1) {
-  background-color: orange;
-}
-
-.ball.vibrate:nth-child(2) {
-  background-color: purple;
-}
-
-.ball.vibrate:nth-child(3) {
-  background-color: yellow;
+  animation-timing-function: ease-in-out;
 }

@@ -27,7 +27,8 @@ class Boxes extends Component {
     return (
       <div className='container'>
         <div className='row'>
-          <Box color={ 'red' } />
+          <Box type='vibrate' />
+          <Box type='slide' />
         </div>
       </div>
     )

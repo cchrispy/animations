@@ -1,0 +1,50 @@
+/*
+** Color palettes
+** [#3764B1, #FDC20B, #EF3266, #CCE32C, #D96C3B]
+*/
+
+.ball.vibrate:nth-child(1) {
+  margin-top: 10px;
+  background-color: #3764B1;
+  @include animation-args(vibrate, 3.5s);
+}
+
+.ball.vibrate:nth-child(2) {
+  background-color: #FDC20B;
+  @include animation-args(vibrate, 3s);
+}
+
+.ball.vibrate:nth-child(3) {
+  background-color: #EF3266;
+  @include animation-args(vibrate, 2s);
+}
+
+.ball.vibrate:nth-child(4) {
+  background-color: #CCE32C;
+  @include animation-args(vibrate, 2.8s);
+}
+
+.ball.vibrate:nth-child(5) {
+  background-color: #D96C3B;
+  @include animation-args(vibrate, 3.5s);
+}
+
+.ball.vibrate:nth-child(6) {
+  background-color: white;
+  @include animation-args(vibrate, 2.2s);
+}
+
+.ball.vibrate:nth-child(7) {
+  background-color: #FDC20B;
+  @include animation-args(vibrate, 3.9s);
+}
+
+.ball.vibrate:nth-child(8) {
+  background-color: #3764B1;
+  @include animation-args(vibrate, 3.1s);
+}
+
+.ball.vibrate:nth-child(9) {
+  background-color: #D96C3B;
+  @include animation-args(vibrate, 2.5s);
+}
