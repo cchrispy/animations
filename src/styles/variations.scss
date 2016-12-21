@@ -22,47 +22,24 @@
 .ball.vibrate:nth-child(9) { background-color: #D96C3B; @include animation-args(vibrate, 2.5s); }
 
 
-.slide.ball:nth-child(odd) {
-  @include animation-args(slideFromLeft, 2s);
-}
+.slide.ball:nth-child(odd) { @include animation-args(slideFromLeft, 2s); }
 
-.slide.ball:nth-child(even) {
-  @include animation-args(slideFromRight, 2s);
-}
+.slide.ball:nth-child(even) { @include animation-args(slideFromRight, 2s); }
 
-.ball.slide:nth-child(1) {
-  margin-top: 10px;
-  animation-delay: 0s;
-}
+.ball.slide:nth-child(1) { margin-top: 10px; animation-delay: 0s; }
 
-.ball.slide:nth-child(2) {
-  animation-delay: 0.1s;
-}
+.ball.slide:nth-child(2) { animation-delay: 0.1s; }
 
-.ball.slide:nth-child(3) {
-  animation-delay: 0.2s;
-}
+.ball.slide:nth-child(3) { animation-delay: 0.2s; }
 
-.ball.slide:nth-child(4) {
-  animation-delay: 0.3s;
-}
+.ball.slide:nth-child(4) { animation-delay: 0.3s; }
 
-.ball.slide:nth-child(5) {
-  animation-delay: 0.4s;
-}
+.ball.slide:nth-child(5) { animation-delay: 0.4s; }
 
-.ball.slide:nth-child(6) {
-  animation-delay: 0.5s;
-}
+.ball.slide:nth-child(6) { animation-delay: 0.5s; }
 
-.ball.slide:nth-child(7) {
-  animation-delay: 0.6s;
-}
+.ball.slide:nth-child(7) { animation-delay: 0.6s; }
 
-.ball.slide:nth-child(8) {
-  animation-delay: 0.7s;
-}
+.ball.slide:nth-child(8) { animation-delay: 0.7s; }
 
-.ball.slide:nth-child(9) {
-  animation-delay: 0.8s;
-}
+.ball.slide:nth-child(9) { animation-delay: 0.8s; }

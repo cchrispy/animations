@@ -34,7 +34,6 @@
   margin: 5px auto;
   padding: 0px;
   border-radius: 50%;
-  // background-color: orange;
 }
 
 .vibrate {
@@ -44,16 +43,4 @@
 
 .slide.ball {
   animation-timing-function: ease-out;
-}
-
-.slide.ball:first-child {
-  margin-top: 9px;
-}
-
-.slide.ball:nth-child(odd) {
-  @include animation-args(slideFromLeft, 2s);
-}
-
-.slide.ball:nth-child(even) {
-  @include animation-args(slideFromRight, 2s);
 }
