@@ -11,10 +11,43 @@
 }
 
 @keyframes slideFromLeft {
-  from {
-    transform: translateX(-300px);
+  0% {
+    transform: translateX(-120px);
+    background-color: black;
   }
-  to {
+  25% {
+    background-color: #70C1B3;
+  }
+  50% {
     transform: translateX(0px);
+    background-color: #247BA0;
+  }
+  75% {
+    background-color: #FFE066;
+  }
+  100% {
+    transform: translateX(120px);
+    background-color: #F25F5C;
+  }
+}
+
+@keyframes slideFromRight {
+  0% {
+    transform: translateX(120px);
+    background-color: #F25F5C;
+  }
+  25% {
+    background-color: #FFE066;
+  }
+  50% {
+    transform: translateX(0px);
+    background-color: #247BA0;
+  }
+  75% {
+    background-color: #70C1B3;
+  }
+  100% {
+    transform: translateX(-120px);
+    background-color: black;
   }
 }
