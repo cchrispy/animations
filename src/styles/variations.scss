@@ -3,6 +3,15 @@
 ** [#3764B1, #FDC20B, #EF3266, #CCE32C, #D96C3B]
 */
 
+
+/*
+******
+*********
+************ VIBRATE
+*********
+******
+*/
+
 .ball.vibrate:nth-child(1) { margin-top: 10px; background-color: #3764B1; @include animation-args(vibrate, 3.5s); }
 
 .ball.vibrate:nth-child(2) { background-color: #FDC20B; @include animation-args(vibrate, 3s); }
@@ -21,6 +30,14 @@
 
 .ball.vibrate:nth-child(9) { background-color: #D96C3B; @include animation-args(vibrate, 2.5s); }
 
+
+/*
+******
+*********
+************ SLIDE
+*********
+******
+*/
 
 .slide.ball:nth-child(odd) { @include animation-args(slideFromLeft, 2s); }
 
