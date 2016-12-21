@@ -5,7 +5,7 @@ class Box extends Component {
     super(props);
     this.state = {
       vibrate: <div className='ball vibrate'></div>,
-      slide: <div className='slide'><div className='ball'></div></div>,
+      slide: <div className='ball slide'></div>,
     };
   }
 

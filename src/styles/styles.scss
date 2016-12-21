@@ -37,3 +37,15 @@
 .vibrate {
   animation-timing-function: ease-in-out;
 }
+
+.container * {
+  overflow-x: hidden;
+  // margin: 0px;
+}
+
+.slide.ball {
+  margin-bottom: 1px;
+  display: block;
+  @include animation-args(slideFromLeft, 2s);
+  animation-timing-function: ease-in-out;
+}
