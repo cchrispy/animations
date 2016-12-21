@@ -43,6 +43,7 @@
   margin: 15% auto;
   padding: 0px;
   border-radius: 50%;
+  background-color: white;
 }
 
 .vibrate {
@@ -57,4 +58,8 @@
 .boing {
   animation-timing-function: ease;
   @include animation-args(boing, 3s);
+}
+
+.entrance {
+  @include animation-args(entrance, 2s);
 }

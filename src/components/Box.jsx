@@ -6,7 +6,8 @@ class Box extends Component {
     this.state = {
       vibrate: <div className='ball vibrate'></div>,
       slide: <div className='ball slide'></div>,
-      boing: <div className='ball-lg boing'><div></div></div>
+      boing: <div className='ball-lg boing'></div>,
+      entrance: <div className='ball-lg entrance'></div>
     };
   }
 
@@ -19,6 +20,9 @@ class Box extends Component {
     }
     if (animation === 'boing') {
       return this.state.boing;
+    }
+    if (animation === 'entrance') {
+      return this.state.entrance;
     }
   }
 
